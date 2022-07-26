@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg bg-dark">
+
+  <div class="container-fluid">
+
+    <a  routerLink="/" class="navbar-brand active" href="#">
+      <i class="fa-solid fa-bars"></i>
+      Home
+    </a>
+
+     <a  routerLink="/scoreboard" class="navbar-brand active" href="#">
+       <i class="fa fa-table" aria-hidden="true"> </i>
+       Scoreboard
+     </a>
+
+    <a  routerLink="/ranking" class="navbar-brand" href="#">
+      <i  class="fa-solid fa-ranking-star"></i>
+      Ranking
+    </a>
+
+    <a routerLinkActive="active" routerLink="/championship" class="navbar-brand" href="#">
+      <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+      Championship
+    </a>
+<!--
+    <a routerLinkActive="active" routerLink="/results" class="navbar-brand" href="#">
+      <i class="fa-solid fa-square-poll-vertical"></i>
+      Results
+    </a>
+-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+      </ul>
+      <form class="d-flex" role="search">
+        <button class="btn btn-outline-light" type="submit">
+          <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+
+  </div>
+</nav>
+
+<div id="fundo">
+  <router-outlet></router-outlet>
+</div>
+
+
+
+
+
+
+
+

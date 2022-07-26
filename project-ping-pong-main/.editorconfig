@@ -1,0 +1,25 @@
+# Editor configuration, see https://editorconfig.org
+
+# Aqui é uma recomendação para editores
+
+# Guia de estilo de formatação de código
+
+# Arquivo com instruções de estilo de codificação que,
+# através de um plugin instalado, o VS, interpreta essas instruções
+# e adapta automaticamente o código aos estilos definidos.
+
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.ts]
+quote_type = single
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false

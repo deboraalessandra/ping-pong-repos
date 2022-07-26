@@ -1,0 +1,34 @@
+#exampleInputEmail1
+{
+  width: 300px;
+  color: white;
+}
+
+.form{
+  padding-top: 100px;
+
+}
+
+#inputSet, #inputGame{
+  width: 60px;
+
+}
+.form-check-input{
+  color: white;
+}
+
+.form-label{
+  color: white;
+  display: flex;
+}
+
+#exampleCheck1{
+  color: white;
+}
+
+.btn-salvar{
+  text-align: center;
+  margin-top: 60px;
+}
+
+

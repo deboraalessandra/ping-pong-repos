@@ -1,0 +1,134 @@
+.players{
+  display: flex;
+}
+
+.pontuacao{
+  display: flex;
+  width: 100%;
+  background-color: #212529;
+  justify-content: space-between;
+}
+
+.player1, .player2{
+  padding-left: 200px;
+  padding-top: 40px;
+  font-family: 'Play', sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+.pontuacao1{
+  margin-left: 0px;
+  margin-right: 200px;
+  font-size: 80px;
+  font-family: 'Play', sans-serif;
+  color: rgb(21, 242, 9);
+}
+
+.pontuacao2{
+  font-size: 80px;
+  font-family: 'Play', sans-serif;
+  color: rgb(21, 242, 9);
+  margin-left: 90px;
+}
+
+.set{
+  font-size: 50px;
+  font-family: 'Play', sans-serif;
+  color: white;
+}
+
+.set-score{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(21, 242, 9);
+  font-size: 100px;
+  font-family: 'Play', sans-serif;
+}
+
+#set-score-x{
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}
+
+.pontuacao1-set{
+  padding-left: 320px;
+  font-size: 80px;
+  font-family: 'Play', sans-serif;
+  color: rgb(21, 242, 9);
+}
+
+.pontuacao2-set{
+  padding-left: 150px;
+  font-size: 80px;
+  font-family: 'Play', sans-serif;
+  position: relative;
+  float: right;
+  color: rgb(21, 242, 9);
+}
+
+.pontuacaox-set{
+  padding-left: 150px;
+  font-size: 80px;
+  font-family: 'Play', sans-serif;
+  position: relative;
+  float: right;
+  color: white;
+}
+
+.container-game{
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+}
+.container{
+  margin: 0;
+  padding: 0;
+}
+
+.sinal1 {
+  padding-top: 31px;
+  padding-left: 50px;
+  width: 200px;
+  background-color: #212529;
+}
+
+.sinal2{
+  padding-top: 31px;
+  margin-right: -20px;
+  width: 170px;
+  background-color: #212529;
+}
+
+#bt1{
+  margin: 5px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+}
+#bt{
+
+  margin: 5px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+
+.tudo{
+  background-color: #212529;
+  width: 1100px;
+}
+
+html, body{
+  margin:0px !important;
+  padding: 0px !important;
+}
+
+.botao-fim{
+  text-align: center;
+
+}
+

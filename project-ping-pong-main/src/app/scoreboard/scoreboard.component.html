@@ -1,0 +1,42 @@
+<div class="tudo">
+
+  <div class="players">
+    <h1 class="player1">{{playerCoreModel.NamePlayer}}</h1>
+    <h1 class="player2">{{playerCoreModel.NamePlayer2}}</h1>
+  </div>
+
+<div class="pontuacao">
+
+  <div class="sinal1">
+    <button type="button" id="bt1" class="btn btn-primary btn-lg" (click)="decrementarPlayer1()"><i class="fa-solid fa-minus"></i></button>
+    <button type="button" id="bt" class="btn btn-primary btn-lg" (click)="incrementarPlayer1()"><i class="fa-solid fa-plus"></i></button>
+  </div>
+
+
+
+
+    <h2 class="pontuacao1" >{{valorPlayer1}}</h2>
+
+    <h2 class="pontuacao2" >{{valorPlayer2}}</h2>
+
+    <div class="sinal2">
+      <button type="button" id="bt1" class="btn btn-dark btn-lg" (click)="decrementarPlayer2()"><i class="fa-solid fa-minus"></i></button>
+     <button type="button" id="bt" class="btn btn-primary btn-lg" (click)="incrementarPlayer2()"><i class="fa-solid fa-plus"></i></button>
+    </div>
+
+    </div>
+      <div class="container-game">
+        <h1 class="set">SETS</h1>
+      </div>
+
+    <div class="set-score">
+      <h2 id="set-score-h2">{{setPointPlayer1}}</h2>
+      <h2 id="set-score-x">X</h2>
+      <h2 id="set-score-h2">{{setPointPlayer2}}</h2>
+    </div>
+    <div class="botao-fim">
+      <button type="button" class="btn btn-light" (click)="finalizarPartida()">Finalizar Partida</button>
+    </div>
+</div>
+
+
